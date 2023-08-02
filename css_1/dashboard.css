@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.aditya{
+    margin-left: 1050px;
+    margin-top: 10px;
+    color: black;
+}
+@media(max-width:768px)
+{   .aditya{
+    margin-left: 0px;
+}
+}
+.login{
+    margin-left: 20px;
+    margin-top: 9px;
+    color: black;
+}
+@media(max-width :768px)
+{
+    .login{
+       margin-left: 0px;
+    }
+}
+.signup{
+    margin-left: 20px;
+    margin-top: 9px;
+    color:black;
+}
+@media(max-width:768px)
+{
+    .signup{
+        margin-left: 0px;
+    }
+}
+.breadcrumb-color{
+    background-color: darkgray;
+}
+.user{
+    height: 250px;
+    background-color: azure;
+    width: auto;
+    position: relative;
+
+}
+@media(max-width:768px)
+{
+    .user{
+        width: auto;
+    }
+}
+.user-photo{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+#photo{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.detail{
+    margin-left: 170px;
+    margin-top: -70px;
+}
+@media(max-width :768px)
+{
+    .user-photo{
+        margin-left: 250px;
+        display: block;
+        margin-top: 40px;
+
+    }
+    .detail{
+        display: block;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+}
+.favourite-properties{
+    margin-top: 300px;
+    text-align: center;
+    margin-left: 420px;
+}
+.pro1{
+    border: 2px solid black;
+}
+.card-text{
+    font-weight: bolder;
+}
+@media(max-width:768px)
+{
+   .favourite-properties{
+       width: 300px;
+       margin-left: 140px;
+       margin-top: 50px;
+   }
+}
+.pro2{
+    margin-top: 50px;
+}
+.heading{
+    margin-bottom: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    margin-left: -200px;
+    margin-top: -250px;
+
+}
+@media(max-width:768px)
+{   .heading{
+    margin-top: 70px;
+    margin-left: 40px;
+   }
+}
+.footer{
+    background-color: black;
+    margin-top: 30px;
+    height: 100px;
+}
+@media(max-width : 768px)
+{   .footer{
+    height: 170px;
+   }
+}
+.foot_mumbai{
+    color: aliceblue;
+    margin-left: 350px;
+}
+@media(max-width : 768px)
+{
+    .foot_mumbai{
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 50px;
+    }
+}
+.foot_hyderabad{
+    color: aliceblue;
+    margin-left: 200px;
+}
+@media(max-width : 768px)
+{
+    .foot_hyderabad{
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+}
+.foot_delhi{
+    
+    color: aliceblue;
+    margin-left: 200px;
+}
+@media(max-width : 768px)
+{
+    .foot_delhi{
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+}
+.foot_banglore{
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+@media(max-width : 768px)
+{
+    .foot_banglore{
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+}
+.copyright{
+    color: darkgray;
+    margin-top: 30px;
+    text-align: center;
+}

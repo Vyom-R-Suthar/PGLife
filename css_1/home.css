@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.login{
+    margin-left: 1170px;
+    margin-top: 9px;
+    color: black;
+}
+@media(max-width :768px)
+{
+    .login{
+       margin-left: 0px;
+    }
+}
+.signup{
+    margin-left: 20px;
+    margin-top: 9px;
+    color:black;
+}
+@media(max-width:768px)
+{
+    .signup{
+        margin-left: 0px;
+    }
+}
+.nav-name{
+    margin-left: 1000px;
+    margin-top: 9px;
+    color: black;
+}
+#dashboard{
+    color: black;
+    margin-top: 0px;
+}
+#logout{
+    color: black;
+}
+@media(max-width : 768px)
+{
+    .nav-name{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+.breadcrumb-color{
+    background-color: darkgrey;
+    margin-bottom: -16px;
+}
+#breadcrumb-home{
+    color: aliceblue;
+    margin-left: 15px;
+}
+.image{
+   background-image: url(../img/bg3.png);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 80vh;
+}
+@media(max-width : 768px)
+{
+    .image{
+        height: 250px;
+    
+    }
+}
+.heading{
+   text-align: center;
+   padding-top: 100px;
+   color: black;
+}
+@media(max-width : 768px)
+{
+    .heading{
+    padding-top: 20px;
+    }
+}
+.h2{
+    font-size: 40px;
+}
+@media(max-width : 768px)
+{
+    .h2{
+        font-size: 25px;
+    }
+}
+.search{
+    width: 350px;
+    height: 38px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:50px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-color: white;
+    border-width: 1px;
+    margin-top: 10px;
+}
+@media(max-width : 768px)
+{
+    .search{
+        width: 175px;
+        height: 38px;
+        margin-left: 40px;
+    }
+}
+#search-button{
+    height: 35px;
+    width: 40px;
+    font-size: small;
+    
+}
+.cities{
+    margin-top: 45px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.major-cities{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+@media(max-width : 500px){
+    .major-cities{
+        font-size: 30px;
+    }
+}
+
+.mumbai{
+   border: 1px solid black;
+   border-radius: 100px;
+   width: 150px;
+   height: 150px;
+   margin-left: 60px;
+   display: inline-block;
+   margin-top: 15px;
+   text-align: center;
+   
+}
+.mumbai-image{
+    width: 150px;
+    height: 150px;
+    
+}
+@media(max-width : 768px)
+{
+    .mumbai-image{
+        display: block;
+    }
+    .mumbai{
+        display: block;
+        margin-left: 260px;
+    }
+}
+
+.banglore{
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.banglore-image{
+    width: 115px;
+    height: 150px;
+}
+@media(max-width : 768px)
+{
+    .banglore-image{
+        display: block;
+        margin-left: 17px;
+    }
+    .banglore{
+        display: block;
+        margin-left: 260px;
+    }
+}
+
+.delhi{
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    display: inline-block;
+   margin-top: 15px;
+
+}
+.delhi-image{
+    width: 150px;
+    height: 150px;
+}
+@media(max-width : 768px){
+    .delhi{
+        display: block;
+        margin-left: 260px;
+    }
+    .delhi-image{
+        display: block;
+    }
+}
+
+
+.hyderabad{
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 160px;
+    height: 160px;
+    margin-left: 100px;
+    display: inline-block;
+    margin-top: 15px;
+    
+}
+.hyderabad-image{
+    width: 120px;
+    height: 150px;
+}
+@media(max-width : 768px){
+    .hyderabad{
+        display: block;
+        margin-left: 260px;
+    }
+    .hyderabad-image{
+        display: block;
+        margin-left: 17px;
+    }
+}
+.footer{
+    background-color: black;
+    margin-top: 30px;
+    height: 100px;
+}
+@media(max-width : 768px)
+{   .footer{
+    height: 170px;
+   }
+}
+.foot_mumbai{
+    color: aliceblue;
+    margin-left: 350px;
+}
+@media(max-width : 768px)
+{
+    .foot_mumbai{
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 50px;
+    }
+}
+.foot_hyderabad{
+    color: aliceblue;
+    margin-left: 200px;
+}
+@media(max-width : 768px)
+{
+    .foot_hyderabad{
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+}
+.foot_delhi{
+    
+    color: aliceblue;
+    margin-left: 200px;
+}
+@media(max-width : 768px)
+{
+    .foot_delhi{
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+}
+.foot_banglore{
+    color: aliceblue;   
+    margin-top: 15px;
+    margin-left: 200px;
+}
+@media(max-width : 768px)
+{
+    .foot_banglore{
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+}
+.copyright{
+    color: darkgray;
+    margin-top: 30px;
+    text-align: center;
+}
+.login-form{
+    display: inline-block;
+    color: black;
+    text-align: center;
+}
+.modal-dialog{
+    width: 400px;
+    
+}
+.modal-title{
+    color: chartreuse;
+    font-weight: bold;
+    
+}
+#login-foot{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.signup-form{
+    text-align: center;
+}
+
+.mumbai:focus,
+.mumbai:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.delhi:focus,
+.delhi:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.banglore:focus,
+.banglore:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.hyderabad:focus,
+.hyderabad:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.submit_signup{
+    height: 40px;
+    width: 60px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: white;
+}
+.submit_signup:focus,
+.submit_signup:hover {
+    box-shadow: 0 5px 11px greenyellow;
+}
+#loading {
+    display: none;
+    background-color: #666666;
+    background-image: url("./img/progress_spinner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10000000;
+}

@@ -1,0 +1,10 @@
+body{
+    background-image: url(img/bg2.png);
+}
+.heading{
+    
+    margin-top: 275px;
+    font-size: 50px;
+    margin-left: 400px;
+    color: blue;
+}
